@@ -71,9 +71,37 @@ canvas.drawEllipse(centreX: 300, centreY: 0, width: 600, height: 600)
 
 canvas.fillColor=Color.init(hue: 0, saturation: 0, brightness: 0, alpha: 0)
 
+canvas.borderColor=Color.orange
+canvas.defaultBorderWidth = 30
+//Draw a circle
+canvas.drawEllipse(centreX: 300, centreY: 0, width: 550, height: 550)
 
+canvas.borderColor=Color.init(hue: 0, saturation: 0, brightness: 0, alpha: 0)
+canvas.borderColor=Color.yellow
+canvas.defaultBorderWidth = 30
+//Draw a circle
+canvas.drawEllipse(centreX: 300, centreY: 0, width: 500, height: 500)
 
+canvas.fillColor=Color.init(hue: 0, saturation: 0, brightness: 0, alpha: 0)
 
+canvas.borderColor=Color.green
+canvas.defaultBorderWidth=30
+//Draw a circle
+canvas.drawEllipse(centreX: 300, centreY: 0, width: 450, height: 450)
+
+canvas.fillColor=Color.init(hue: 0, saturation: 0, brightness: 0, alpha: 0)
+
+canvas.borderColor=Color.blue
+canvas.defaultBorderWidth=30
+//Draw a circle
+canvas.drawEllipse(centreX: 300, centreY: 0, width: 400, height: 400)
+
+canvas.fillColor=Color.init(hue: 0, saturation: 0, brightness: 0, alpha: 0)
+
+canvas.borderColor=Color.purple
+canvas.defaultBorderWidth=30
+//Draw a circle
+canvas.drawEllipse(centreX: 300, centreY: 0, width: 350, height: 350)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
