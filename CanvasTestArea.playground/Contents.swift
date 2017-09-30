@@ -45,12 +45,6 @@ canvas.drawLine(fromX: 0, fromY: 500, toX: 100, toY: 0)
 //Draw a line
 canvas.drawLine(fromX: 50, fromY: 450, toX: 300, toY: 0)
 
-canvas.lineColor=Color.orange
-//Draw a line
-canvas.drawLine(fromX: 40, fromY: 435, toX: 200, toY: 0)
-
-//Draw a line
-canvas.drawLine(fromX: 65, fromY: 460, toX: 500, toY: 0)
 
 canvas.borderColor=Color.white
 canvas.fillColor=Color.white
@@ -102,6 +96,25 @@ canvas.borderColor=Color.purple
 canvas.defaultBorderWidth=30
 //Draw a circle
 canvas.drawEllipse(centreX: 300, centreY: 0, width: 350, height: 350)
+
+canvas.lineColor=Color.yellow
+//Draw a line
+canvas.defaultLineWidth=5
+canvas.drawLine(fromX: 0, fromY: 450, toX: 0, toY: 100)
+
+//Draw a line
+canvas.drawLine(fromX: 40, fromY: 435, toX: 95, toY: 240)
+
+//Draw a line
+canvas.drawLine(fromX: 55, fromY: 465, toX: 250, toY: 315)
+
+//Draw a line
+canvas.drawLine(fromX: 80, fromY: 500, toX: 420, toY: 500)
+
+canvas.lineColor=Color.orange
+//Draw a line
+canvas.defaultLineWidth=5
+canvas.drawLine(fromX: 10, fromY: 425, toX: 20, toY: 150)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
