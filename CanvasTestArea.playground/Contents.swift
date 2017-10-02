@@ -37,7 +37,6 @@ canvas.drawEllipse(centreX: 0, centreY: 500, width: 150, height: 150)
 canvas.lineColor=Color.yellow
 //Draw a line
 canvas.defaultLineWidth=5
-canvas.drawLine(fromX: 70, fromY: 470, toX: 600, toY: 400)
 
 //Draw a line
 canvas.drawLine(fromX: 0, fromY: 500, toX: 100, toY: 0)
@@ -106,15 +105,81 @@ canvas.drawLine(fromX: 0, fromY: 450, toX: 0, toY: 100)
 canvas.drawLine(fromX: 40, fromY: 435, toX: 95, toY: 240)
 
 //Draw a line
-canvas.drawLine(fromX: 55, fromY: 465, toX: 250, toY: 315)
+canvas.drawLine(fromX: 65, fromY: 460, toX: 210, toY: 305)
 
 //Draw a line
-canvas.drawLine(fromX: 80, fromY: 500, toX: 420, toY: 500)
+canvas.drawLine(fromX: 75, fromY: 465, toX: 255, toY: 315)
+
+//Draw a line
+canvas.drawLine(fromX: 75, fromY: 485, toX: 295, toY: 320)
+
+//Draw a line
+canvas.drawLine(fromX: 80, fromY: 500, toX: 600, toY: 230)
+
+//Draw a line
+canvas.drawLine(fromX: 82, fromY: 500, toX: 600, toY: 285)
+
+//Draw a line
+canvas.drawLine(fromX: 85, fromY: 500, toX: 540, toY: 350)
+
+//Draw a line
+canvas.drawLine(fromX: 90, fromY: 500, toX: 525, toY: 390)
+
+//Draw a line
+canvas.drawLine(fromX: 110, fromY: 500, toX: 425, toY: 500)
+
+//Draw a line
+canvas.drawLine(fromX: 110, fromY: 500, toX: 435, toY: 460)
+
+//DRaw a line
+canvas.drawLine(fromX: 160, fromY: 70, toX: 170, toY: 0)
+
+//Draw a line
+canvas.drawLine(fromX: 300, fromY: 155, toX: 420, toY:0)
 
 canvas.lineColor=Color.orange
 //Draw a line
 canvas.defaultLineWidth=5
 canvas.drawLine(fromX: 10, fromY: 425, toX: 20, toY: 150)
+
+//Draw a line
+canvas.drawLine(fromX: 30, fromY: 430, toX: 70, toY: 215)
+
+//Draw a line
+canvas.drawLine(fromX: 50, fromY: 440, toX: 120, toY: 260)
+
+//Draw a line
+canvas.drawLine(fromX: 60, fromY: 450, toX: 170, toY: 290)
+
+//Draw a line
+canvas.drawLine(fromX: 70, fromY: 465, toX: 235, toY: 310)
+
+//Draw a line
+canvas.drawLine(fromX: 75, fromY: 470, toX: 270, toY: 315)
+
+//Draw a line
+canvas.drawLine(fromX: 80, fromY: 495, toX: 600, toY: 200)
+
+//Draw a line
+canvas.drawLine(fromX: 85, fromY: 500, toX: 600, toY: 260)
+
+//Draw a line
+canvas.drawLine(fromX: 84, fromY: 500, toX: 600, toY: 310)
+
+//Draw a line
+canvas.drawLine(fromX: 100, fromY: 500, toX: 525, toY: 415)
+
+//Draw a line
+canvas.drawLine(fromX: 87, fromY: 500, toX: 530, toY: 370)
+
+//Draw a line
+canvas.drawLine(fromX: 110, fromY: 500, toX: 425, toY: 480)
+
+//Draw a line
+canvas.drawLine(fromX: 185, fromY: 110, toX: 220, toY: 0)
+
+//Draw a line
+canvas.drawLine(fromX: 345, fromY: 151, toX: 460, toY: 0)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
